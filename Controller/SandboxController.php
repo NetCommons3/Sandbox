@@ -28,4 +28,15 @@ class SandboxController extends AppController {
  **/
 	public function index() {
 	}
+
+/**
+ * theme確認用
+ * @author Takako Miyagawa <nekoget@gmail.com>
+ * @return void
+ */
+	public function theme($theme = "default", $view = "index") {
+		$this->Auth->allow();
+		$this->theme = $theme;
+		$this->render($view);
+	}
 }
