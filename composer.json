@@ -1,8 +1,8 @@
 {
-    "name":        "netcommons/auth",
-    "description": "Auth Plugin for CakePHP",
+    "name":        "netcommons/Sandbox",
+    "description": "Sandbox Plugin for CakePHP",
     "type":        "cakephp-plugin",
-    "keywords":    ["cakephp", "auth"],
+    "keywords":    ["cakephp", "sandbox"],
     "homepage":    "http://www.netcommons.org/",
     "license":     "NetCommons License",
     "authors": [
