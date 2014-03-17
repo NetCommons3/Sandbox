@@ -1,5 +1,5 @@
 {
-    "name":        "netcommons/Sandbox",
+    "name":        "netcommons/sandbox",
     "description": "Sandbox Plugin for CakePHP",
     "type":        "cakephp-plugin",
     "keywords":    ["cakephp", "sandbox"],
