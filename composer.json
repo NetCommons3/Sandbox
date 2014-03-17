@@ -1,39 +1,28 @@
 {
-	"name":        "netcommons/sandbox",
-	"description": "Sandbox Plugin for CakePHP",
-	"type":        "cakephp-plugin",
-	"keywords":    ["cakephp", "Sandbox"],
-	"homepage":    "http://www.netcommons.org/",
-	"license":     "NetCommons License",
-	"authors": [
-		{
-			"name":     "NetCommons Community",
-			"homepage": "https://github.com/NetCommons3/Sandbox/graphs/contributors"
-		}
-	],
-	"extra": {
-		"installer-paths": {
-			"app/Plugin/{$name}": [
-				"cakephp/debug_kit",
-				"cakedc/migrations",
-				"mustangostang/spyc",
-				"slywalker/boost_cake",
-				"chronon/mobile_detect"
-			]
-		}
-	},
-	"require": {
-		"cakephp/cakephp":        "~2.4.0",
-		"cakephp/debug_kit":      "~2.2.0",
-		"cakedc/migrations":      "~2.2.0",
-		"twbs/bootstrap":         "~3.1.0",
-		"components/jquery":      "~2.1.0"
-	},
-	"require-dev": {
-		"netcommons/auth":        "dev-master",
-		"satooshi/php-coveralls": "dev-master"
-	},
-	"config": {
-		"vendor-dir": "vendors"
-	}
+    "name":        "netcommons/auth",
+    "description": "Auth Plugin for CakePHP",
+    "type":        "cakephp-plugin",
+    "keywords":    ["cakephp", "auth"],
+    "homepage":    "http://www.netcommons.org/",
+    "license":     "NetCommons License",
+    "authors": [
+        {
+            "name":     "NetCommons Community",
+            "homepage": "https://github.com/NetCommons3/Auth/graphs/contributors"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp":        "~2.4",
+        "cakephp/debug_kit":      "~2.2",
+        "cakedc/migrations":      "~2.2",
+        "twbs/bootstrap":         "~3.1",
+        "components/jquery":      "~2.1"
+    },
+    "require-dev": {
+        "netcommons/users":       "dev-master",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "config": {
+        "vendor-dir": "vendors"
+    }
 }
