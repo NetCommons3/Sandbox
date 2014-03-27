@@ -35,7 +35,7 @@
 </header>
 
 
-<div id="nc-area-rap" class="container">
+<div  class="container">
 
 
 <!-- area-main -->

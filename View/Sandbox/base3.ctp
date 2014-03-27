@@ -35,7 +35,7 @@
 </header>
 
 
-<div id="nc-area-rap" class="container">
+<div class="container">
 <!-- area-major-sub  -->
 <div id="area-major-sub" class="col-sm-3">
 	<h2>area-major</h2>
