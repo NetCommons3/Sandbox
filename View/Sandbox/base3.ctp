@@ -36,8 +36,8 @@
 
 
 <div class="container">
-<!-- area-major-sub  -->
-<div id="area-major-sub" class="col-sm-3">
+<!-- area-major  -->
+<div id="area-major" class="col-sm-3">
 	<h2>area-major</h2>
 	<!-- form-signin -->
 	<form class="form-signin" role="form">
@@ -87,8 +87,8 @@
 
 </div>
 
-<!-- area-minor-sub  -->
-<div id="area-minor-sub" class="col-sm-3">
+<!-- area-minor  -->
+<div id="area-minor" class="col-sm-3">
 	<h2>area-minor</h2>
 </div>
 
