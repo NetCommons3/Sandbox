@@ -1,49 +1,51 @@
 <!-- area-header -->
-<header id="area-header">
-    
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">NetCommons3 Base</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<header id="container-header">
+	<div class="box-header box-id-6">
+
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">NetCommons3 Base</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">Nav header</li>
+								<li><a href="#">Separated link</a></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
 </header>
 
 
 <div class="container">
-<!-- area-major-sub  -->
-<div id="area-major-sub" class="col-sm-3">
-	<h2>area-major</h2>
+<!-- container-major-sub  -->
+<div id="container-major-sub" class="col-sm-3">
+	<h2>container-major</h2>
 </div>
 
-<!-- area-main -->
-<div id="area-main" class="col-sm-8" role="main">
-	<h2>area-main</h2>
+<!-- container-main -->
+<div id="container-main" class="col-sm-8" role="main">
+	<h2>container-main</h2>
 	<h1>h1</h1>
 	<h2>h2</h2>
 	<h3>h3</h3>
@@ -91,7 +93,7 @@
 
 
 
-<!-- area-footer  -->
-<footer id="area-footer" role="contentinfo">
-	<div class="row copyright">area-footer Powered by NetCommons3</div>
+<!-- container-footer  -->
+<footer id="container-footer" role="contentinfo">
+	<div class="row copyright">container-footer Powered by NetCommons3</div>
 </footer>

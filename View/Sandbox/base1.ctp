@@ -1,5 +1,6 @@
 <!-- area-header -->
-<header id="area-header">
+<header id="container-header">
+<div class="box-header box-id-6">
     
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -32,15 +33,16 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+</div>
 </header>
 
 
 <div  class="container">
 
 
-<!-- area-main -->
-<div id="area-main" role="main">
-	<h2>area-main</h2>
+<!-- container-main -->
+<div id="container-main" role="main">
+	<h2>container-main</h2>
 	<h1>h1</h1>
 	<h2>h2</h2>
 	<h3>h3</h3>
@@ -78,7 +80,9 @@
 
 
 
-<!-- area-footer  -->
-<footer id="area-footer" role="contentinfo">
-	<div class="row copyright">area-footer Powered by NetCommons3</div>
+<!-- container-footer  -->
+<footer id="container-footer" role="contentinfo">
+	<div class="box-footer box-id-5">
+		<div class="row copyright">Powered by NetCommons</div>
+	</div>
 </footer>

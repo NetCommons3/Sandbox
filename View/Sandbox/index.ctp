@@ -2,7 +2,15 @@
       <div class="page-header">
       <h1>NetCommons Theme TEST LINK</h1>
       </div>
-      <div>
+<div>
+
+<h2>2カラム:メモ</h2>
+	<ul>
+		<li><a href="/sandbox/sandbox/theme/default/memo" target="_blank">default</a></li>
+		<li><a href="/sandbox/sandbox/theme/amelia/memo" target="_blank">amelia</a></li>
+	</ul>
+
+
 	<h2>Theme</h2>
 	<ul>
 		<li><a href="/sandbox/sandbox/theme/default/theme" target="_blank">default</a></li>
