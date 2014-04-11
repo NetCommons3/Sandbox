@@ -38,8 +38,8 @@
 
 
 <div class="container">
-<!-- container-major-sub  -->
-<div id="container-major-sub" class="col-sm-3">
+<!-- container-major  -->
+<div id="container-major" class="col-sm-3">
 	<h2>container-major</h2>
 </div>
 
