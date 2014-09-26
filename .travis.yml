@@ -7,7 +7,6 @@ php:
 
 env:
   - NETCOMMONS_VERSION=master DB=mysql
-  - NETCOMMONS_VERSION=master DB=pgsql
 
 before_script:
   - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'CREATE DATABASE cakephp_test;'; fi"
